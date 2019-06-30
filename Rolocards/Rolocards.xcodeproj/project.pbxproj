@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		988D68D322C96D93006F1CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68D222C96D93006F1CB7 /* AppDelegate.swift */; };
-		988D68D522C96D93006F1CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68D422C96D93006F1CB7 /* ViewController.swift */; };
+		988D68D522C96D93006F1CB7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68D422C96D93006F1CB7 /* LoginController.swift */; };
 		988D68D822C96D93006F1CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988D68D622C96D93006F1CB7 /* Main.storyboard */; };
 		988D68DA22C96D94006F1CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988D68D922C96D94006F1CB7 /* Assets.xcassets */; };
 		988D68DD22C96D94006F1CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988D68DB22C96D94006F1CB7 /* LaunchScreen.storyboard */; };
+		988D68E922C96E99006F1CB7 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68E822C96E99006F1CB7 /* HomeController.swift */; };
+		988D68EB22C96FB7006F1CB7 /* PersonalCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68EA22C96FB7006F1CB7 /* PersonalCardController.swift */; };
+		988D68ED22C96FCE006F1CB7 /* YourCardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68EC22C96FCE006F1CB7 /* YourCardsController.swift */; };
+		988D68F022C96FE9006F1CB7 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68EF22C96FE9006F1CB7 /* SettingsController.swift */; };
+		988D68F222C97048006F1CB7 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68F122C97048006F1CB7 /* AccountController.swift */; };
+		988D68F422C9705C006F1CB7 /* PrivacyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D68F322C9705C006F1CB7 /* PrivacyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		988D68CF22C96D93006F1CB7 /* Rolocards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolocards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		988D68D222C96D93006F1CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		988D68D422C96D93006F1CB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		988D68D422C96D93006F1CB7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		988D68D722C96D93006F1CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		988D68D922C96D94006F1CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		988D68DC22C96D94006F1CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		988D68DE22C96D94006F1CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988D68E822C96E99006F1CB7 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		988D68EA22C96FB7006F1CB7 /* PersonalCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCardController.swift; sourceTree = "<group>"; };
+		988D68EC22C96FCE006F1CB7 /* YourCardsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCardsController.swift; sourceTree = "<group>"; };
+		988D68EF22C96FE9006F1CB7 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		988D68F122C97048006F1CB7 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		988D68F322C9705C006F1CB7 /* PrivacyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +95,13 @@
 		988D68E622C96DBB006F1CB7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				988D68D422C96D93006F1CB7 /* ViewController.swift */,
+				988D68D422C96D93006F1CB7 /* LoginController.swift */,
+				988D68E822C96E99006F1CB7 /* HomeController.swift */,
+				988D68EA22C96FB7006F1CB7 /* PersonalCardController.swift */,
+				988D68EC22C96FCE006F1CB7 /* YourCardsController.swift */,
+				988D68EF22C96FE9006F1CB7 /* SettingsController.swift */,
+				988D68F122C97048006F1CB7 /* AccountController.swift */,
+				988D68F322C9705C006F1CB7 /* PrivacyController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,7 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				988D68D522C96D93006F1CB7 /* ViewController.swift in Sources */,
+				988D68F222C97048006F1CB7 /* AccountController.swift in Sources */,
+				988D68F022C96FE9006F1CB7 /* SettingsController.swift in Sources */,
+				988D68E922C96E99006F1CB7 /* HomeController.swift in Sources */,
+				988D68EB22C96FB7006F1CB7 /* PersonalCardController.swift in Sources */,
+				988D68F422C9705C006F1CB7 /* PrivacyController.swift in Sources */,
+				988D68ED22C96FCE006F1CB7 /* YourCardsController.swift in Sources */,
+				988D68D522C96D93006F1CB7 /* LoginController.swift in Sources */,
 				988D68D322C96D93006F1CB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
